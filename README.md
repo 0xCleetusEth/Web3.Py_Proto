@@ -15,7 +15,7 @@ $pipenv shell
 
 --open shell inside virtual environment
 
->>>app.py
+\>>>app.py
 
 --executes 
 
@@ -31,37 +31,37 @@ app.py
 
 
 
->>tests
+\>>tests
 
 ----We don't do those. Not yet anyways.
 
 
 
->>scripts
+\>>scripts
 
->>>>connect.py
+\>>>>connect.py
 
 --------Confers with virtual environment settings (venv) in environment folder, uses API_KEYS defined to connect to and handle web3 HTTPS websocket
 
->>>>terminate.py
+\>>>>terminate.py
 
 --------Use your imagination
 
 
 
->>registry
+\>>registry
 
->>>>xxxDict.py
+\>>>>xxxDict.py
 
 --------uses classes for each contract you'd like to register/import/dict. Assign attributes and return for clean calls, not much else.
 
 
 
->>interfaces
+\>>interfaces
 
->>>>xxxinterfaces
+\>>>>xxxinterfaces
 
->>>>>>>>somecontract.txt
+\>>>>>>>>somecontract.txt
 
 -----------------paste raw .txt of ABI, supply PATH in registry class for contract.
 
